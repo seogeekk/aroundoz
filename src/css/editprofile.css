@@ -1,0 +1,197 @@
+/*
+Copyright 2017
+Author: Karez Bartolo <KarezDana@gmail.com>
+*/
+
+/* Bordered form */
+body {
+    font-family: Arial;
+}
+
+.profile-img {
+    float: right;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-pic {
+    position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+    
+    border-radius: 25px;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+
+#avatar {
+    padding: 10px;
+    max-width: 95%;
+    height: auto;
+    width: auto;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 75%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #b33333;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    height: auto;
+    width: auto;
+}
+
+/* Add padding to containers */
+.edit-container {
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+.form {
+    padding-top: 1em;
+}
+
+.err {
+    margin: auto;
+    width: 90%;
+    color: red;
+}
+
+.success {
+    margin: auto;
+    width: 90%;
+    color: green;
+}
+
+.signup-tag {
+    margin: auto;
+    width: 90%;
+    font-size: 16px;
+}
+
+
+
+.signup-form {
+    width: 100%;
+    height: auto;
+    float: right;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 12px;
+    border: 3px solid #f1f1f1;
+}
+
+.user-form {
+    width: 40%;
+    float: right;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.home {
+    width: 60%;
+    margin: auto;
+    background-color:#f1f1f1;
+}
+
+.splash {
+   font-family: Arial;
+   font-size: 14px;
+   position: relative; 
+   width: 60%; /* for IE 6 */
+}
+
+h1 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+.tagline {
+    position: absolute;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.tagline p {
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #270c77;
+}
+
+.tagline ul {
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #270c77;
+    list-style: none;
+}
+
+.signup {
+    font-family: Arial;
+    position: relative; 
+    width: 100%;
+}
+
+img.tagphoto {
+    padding: 10px;
+    max-width: 95%;
+    height: auto;
+    width: auto;
+}
+
+img.avatar {
+    padding: 10px;
+    max-width: 95%;
+    height: auto;
+    width: auto;
+}
+

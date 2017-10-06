@@ -1,0 +1,88 @@
+/*
+Copyright 2017
+Author: Karez Bartolo <KarezDana@gmail.com>
+*/
+/* 
+    Created on : Mar 26, 2017, 4:03:54 PM
+    Author     : karez
+*/
+html, body {
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+}
+
+.profile-header {
+    padding-top: 50px;
+    width: 100%;
+    background-color: #fdfcfd;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.profile {
+    margin: auto;
+    width: 70%;
+    height: 150px;
+    padding: 20px;
+}
+
+.profile-name {
+    font-size: 36px;
+    font-family: "ABeeZee", Monaco, monospace;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.profile-img {
+    float: right;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+#avatar {
+    padding: 10px;
+    max-width: 95%;
+    height: auto;
+    width: auto;
+}
+
+.profile-action {
+    padding-top: 5px;
+}
+
+.profile-about {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.profile-details {
+    width: 80%;
+    font-size: 16px;
+    font-family: "ABeeZee", Monaco, monospace;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.profile-follow {
+    background-color: #b33333;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-body {
+    
+}
+
+.editprofile {
+    background-color: #a7a7a8;
+    color: white;
+    padding: 8px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-size: 12px;
+    border: 0.5px solid #e0e1e3; 
+    -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+}

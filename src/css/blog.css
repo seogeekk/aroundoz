@@ -1,0 +1,234 @@
+
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 201);
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 2em 1em 0;
+}
+
+.body {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.explore-comment {
+    margin-bottom: 20px;
+}
+
+.posts-comment {
+    margin-bottom: 1em;
+}
+.posts-comment a {
+    padding: 10px 5px 10px;
+}
+
+.posts-comment span {
+    margin: auto;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.posts {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.explore-posts {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.post.notif-read {
+    background-color: #f0ecec;
+}
+
+.post.notif-unread {
+    background-color: #fcc3c3;
+}
+.post-description {
+    font-family: Arial;
+    color: #444;
+    width: 100%;
+    line-height: 1.8em;
+}
+img { 
+    max-width: 100%; 
+    height: auto; 
+}
+
+.create-post input[type="text"] {
+    width: 300px;
+}
+
+.create-post textarea {
+    width: 365px;
+}
+
+#loadmore {
+    background-color: #d5d0e3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+.post-line {
+   color: #e9e9ea;
+   border: 0.8px solid #e9e9ea;
+}
+
+#loadmore-comments {
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #f06c6c;
+    width: 30%;
+}
+#loadmore-comments:hover {
+    text-decoration: underline;
+}
+
+.loading-info {
+    text-align: center;
+    display: none;
+}
+
+.user-body {
+    padding-top: 50px;
+}
+
+
+
+.post-only {
+    padding-top: 50px;
+}
+
+.post {
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+    border: 0.8px solid #e9e9ea;
+    margin: 10px;
+    -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
+    
+}
+
+.explore {
+    float: left;
+    width: 380px;
+    height: 400px;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+    border: 0.8px solid #e9e9ea;
+    margin: 10px;
+    -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
+}
+
+.post-caption-only {
+    font-size: 10px;
+    font-size: 14px; 
+}
+
+.post-actions {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.viewpost {
+    padding-top: 20px;
+}
+
+.viewpost a {
+    color: #a7a7a8;
+}
+
+.landscape-explore {
+    width: 375px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.explore-img {
+    position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+
+.form-posts {
+    width: 100%;
+}
+
+.comment-textarea {
+    width: 75%;
+    margin: auto;
+    margin-left: 10px;
+    padding: 8px 5px;
+    border:solid 1px #c7c7c7;
+}
+
+.comment-button {
+    background-color: #b33333;
+    color: white;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-size: 10px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+.location a {
+    font-size: 12px;
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+.like-btn {
+    padding-top: 5px;
+    border: none;
+    cursor: pointer;
+    color: #b33333;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.like-btn:hover {
+    opacity: .5;
+}
+
+.search-result {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+}

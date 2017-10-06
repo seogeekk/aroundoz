@@ -1,0 +1,122 @@
+/*
+Copyright 2017
+Author: Karez Bartolo <KarezDana@gmail.com>
+*/
+/* 
+    Created on : Mar 25, 2017, 11:56:52 AM
+    Author     : karez
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+li a.title {
+    
+}
+/*
+
+li a.active-page {
+    color: white;
+    background-color: gray;
+}
+*/
+.header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    background-color: #b33333;
+    border-bottom: 1px solid #c3c3c3;
+    z-index:1
+}
+.menu-bar {
+    padding-top: 0;
+    margin: auto;
+    width: 80%;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    padding: 0;
+    border-top: 1px solid #c3c3c3;
+}
+.menu {
+    font-family: "Open Sans", sans-serif;
+}
+
+.menu.menu-title {
+    font-weight: bold
+}
+
+.menu.menu-title:hover {
+    opacity: .5
+}
+
+.menu.menu-left {
+    float: left
+}
+
+.menu.menu-hover {
+    text-decoration: none;
+}
+
+.menu.menu-hover:hover {
+    opacity: .5
+}
+
+.menu.menu-right {
+    float: right
+}
+
+.menu img {
+    padding: 0px;
+}
+
+
+/* Full-width inputs */
+.menu input[type=text]{
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.menu button {
+    background-color: #b33333;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
